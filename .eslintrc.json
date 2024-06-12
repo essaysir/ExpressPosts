@@ -1,3 +1,32 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "airbnb",
+    "airbnb-typescript",
+    "airbnb/hooks",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended", // ts 권장
+    "plugin:prettier/recommended", // eslint의 포매팅을 prettier로 사용.
+    "prettier" // eslint-config-prettier prettier와 중복된 eslint 규칙 제거
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    // JSX 속성 펼침을 허용합니다.
+    "react/jsx-props-no-spreading": "off",
+    // JSX를 사용할 때 React가 스코프에 있어야 하는 규칙을 비활성화합니다.
+    // Next.js에서는 자동으로 React를 스코프에 가져오므로 이 규칙을 무시하는 것이 일반적입니다.
+    "react/react-in-jsx-scope": "off",
+    "implicit-arrow-linebreak": "off", // 화살표 함수뒤에
+    // devDependencies, optionalDependencies는 허용하고, peerDependencies는 허용하지 않습니다.
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": true,
+        "peerDependencies": false
+      }
+    ]
+  }
 }
+
