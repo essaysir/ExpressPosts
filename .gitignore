@@ -1,4 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# 인텔리제이
+.idea
 
 # dependencies
 /node_modules
