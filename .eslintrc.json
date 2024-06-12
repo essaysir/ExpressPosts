@@ -22,8 +22,8 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": true,
-        "optionalDependencies": true,
+        "devDependencies": false,
+        "optionalDependencies": false,
         "peerDependencies": false
       }
     ]
