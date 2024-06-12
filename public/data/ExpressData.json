@@ -1,0 +1,17 @@
+{
+  "editTime" : "123",
+  "terminalInfo" : [
+    {
+      "terminalId": 1,
+      "terminalName": "마포",
+      "terminalDeadline": "",
+      "terminalRemainCount": ""
+    },
+    {
+      "terminalId": 1,
+      "terminalName": "마포",
+      "terminalDeadline": "",
+      "terminalRemainCount": ""
+    }
+  ]
+}
