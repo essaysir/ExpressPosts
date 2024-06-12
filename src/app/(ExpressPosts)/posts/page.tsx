@@ -1,6 +1,7 @@
 import ExpressPostsPage from '@/features/ExpressPosts/ExpressPostsPage';
 import path from 'path';
 import fs from 'fs';
+import { ExpressData } from '@/type/expressTypes';
 
 async function getExpressPosts() {
   const filePath = path.join(process.cwd(), 'public', 'data', 'ExpressData.json');
@@ -9,7 +10,6 @@ async function getExpressPosts() {
 }
 
 export default async function Page() {
-  const expressPosts = await getExpressPosts();
-  console.log(expressPosts);
-  return <ExpressPostsPage />;
+  const expressPosts = (await getExpressPosts()) as ExpressData;
+  return <ExpressPostsPage expressPosts={expressPosts} />;
 }

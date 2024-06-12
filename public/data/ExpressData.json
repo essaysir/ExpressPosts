@@ -1,17 +1,41 @@
 {
-  "editTime" : "123",
-  "terminalInfo" : [
+  "editTime": "2023-06-10T12:34:56Z",
+  "terminalInfo": [
     {
       "terminalId": 1,
       "terminalName": "마포",
-      "terminalDeadline": "",
-      "terminalRemainCount": ""
+      "terminalDeadline": "2023-07-01T08:00:00Z",
+      "terminalRemainCount": 5
     },
     {
-      "terminalId": 1,
-      "terminalName": "마포",
-      "terminalDeadline": "",
-      "terminalRemainCount": ""
+      "terminalId": 2,
+      "terminalName": "마포AMP",
+      "terminalDeadline": "2023-07-02T09:00:00Z",
+      "terminalRemainCount": 3
+    },
+    {
+      "terminalId": 3,
+      "terminalName": "강남AMP",
+      "terminalDeadline": "2023-07-03T10:00:00Z",
+      "terminalRemainCount": 7
+    },
+    {
+      "terminalId": 4,
+      "terminalName": "강남",
+      "terminalDeadline": "2023-07-04T11:00:00Z",
+      "terminalRemainCount": 2
+    },
+    {
+      "terminalId": 5,
+      "terminalName": "홍대",
+      "terminalDeadline": "2023-07-05T12:00:00Z",
+      "terminalRemainCount": 8
+    },
+    {
+      "terminalId": 6,
+      "terminalName": "홍대",
+      "terminalDeadline": "2023-07-06T13:00:00Z",
+      "terminalRemainCount": 1
     }
   ]
 }
