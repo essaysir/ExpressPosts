@@ -1,13 +1,9 @@
 import type { Config } from 'tailwindcss';
 
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const { nextui } = require('@nextui-org/react');
-
 const config: Config = {
   content: [
     './src/features/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -18,7 +14,5 @@ const config: Config = {
       },
     },
   },
-  darkMode: 'class',
-  plugins: [nextui()],
 };
 export default config;

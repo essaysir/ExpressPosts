@@ -5,5 +5,6 @@ export default function ExpressPostsPage({
 }: {
   expressPosts: ExpressData;
 }) {
+  console.log(expressPosts);
   return <main className="w-full h-[100vh]" />;
 }
