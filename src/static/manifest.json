@@ -1,0 +1,32 @@
+{
+    "theme_color": "#4a90e2",
+    "background_color": "#4a90e2",
+    "display": "browser",
+    "scope": "https://express-posts.vercel.app/posts",
+    "start_url": "https://express-posts.vercel.app/posts",
+    "name": "TerminalRemains",
+    "short_name": "Remains",
+    "icons": [
+        {
+            "src": "/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "description": "\ud130\ubbf8\ub110 \ub0a8\uc740 \uac2f\uc218\ub97c \ubcf4\uc5ec\uc8fc\ub294 \uc6f9"
+}
