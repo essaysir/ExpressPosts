@@ -1,10 +1,10 @@
 {
     "background_color": "#4a90e2",
-    "display": "browser",
+    "display": "standalone",
     "scope": "https://express-posts.vercel.app/posts",
     "start_url": "https://express-posts.vercel.app/posts",
-    "name": "TerminalRemains",
-    "short_name": "Remains",
+    "name": "CJ Mapo",
+    "short_name": "CJ Mapo",
     "icons": [
         {
             "src": "/static/icon-256x256.png",
